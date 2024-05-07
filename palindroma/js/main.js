@@ -3,9 +3,10 @@
 // Chiedo all'utente di inserire una parola
 const userInput = prompt("Inserisci una parola");
 
-let userInputLowerCase = userInput.toLowerCase();
+function palindrome(userInput) {
+  // Controllo per trasformare l'input in lower case
+  let userInputLowerCase = userInput.toLowerCase();
 
-function palindrome() {
   // Divido la parola nelle sue lettere e vengono messe in un array
   const arraySplit = userInputLowerCase.split("");
 
@@ -24,4 +25,4 @@ function palindrome() {
   }
 }
 
-palindrome();
+palindrome(userInput);
