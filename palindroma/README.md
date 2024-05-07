@@ -8,4 +8,5 @@ Palindromo = uguale sia che si legga da sinistra verso destra sia da destra vers
 - Devo scomporre la parola inserita nelle varie lettere per poterle inserire in un array
 - Creo l'array con indici al contrario --> .reverse
 - Compongo un altro array con la versione invertita della parola --> .join
-- Coonfronto i due array, se sono uguali la parola è palindroma.
+- Creo la parola invertita
+- Confronto le due parole, se sono identich la parola è palindroma.
