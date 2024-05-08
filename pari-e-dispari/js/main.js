@@ -29,7 +29,7 @@ console.log(numbersSum);
 
 const result = evenOdd(numbersSum);
 
-function evenOdd() {
+function evenOdd(numbersSum) {
   if (numbersSum % 2 === 0 && userEvenOdd === "pari") {
     console.log("Pari! Hai vinto");
     //return true;
