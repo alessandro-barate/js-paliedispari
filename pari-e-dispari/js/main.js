@@ -14,11 +14,10 @@ while (userNumber > 5) {
   userNumber = Number(prompt("Scegli un numero da 1 a 5"));
 }
 
-const pcNumber = randomNumber();
+const pcNumber = randomNumber(1, 5);
 
-function randomNumber() {
-  let random = Math.floor(Math.random() * 5 + 1);
-  return random;
+function randomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 console.log(userEvenOdd);
